@@ -6,7 +6,7 @@ from PIL import Image
 st.title("DIY Farmer’s Eye 🌱")
 st.write("Upload a plant image to detect water stress.")
 
-model = tf.keras.models.load_model("practice_plant_model.h5", compile=False)
+model = tf.keras.models.load_model("plant_stress_model.h5", compile=False)
 
 class_names = ["Healthy", "Mild Stress", "Severe Stress"]
 
